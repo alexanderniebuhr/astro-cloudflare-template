@@ -7,7 +7,7 @@
     "biome": "biome",
     "dev": "astro dev",
     "types": "wrangler types --include-runtime --include-env",
-    "check": "wrangler types --include-runtime --include-env --check && astro check",
+    "check": "wrangler types --include-runtime --include-env --check true && astro check",
     "build": "astro build",
     "preview": "astro build && astro preview",
     "preview:wrangler": "astro build && wrangler dev",
