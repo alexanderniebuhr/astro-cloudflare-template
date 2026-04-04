@@ -1,0 +1,9 @@
+[tools]
+"npm:pnpm" = "v11.0.0-beta.6"
+
+[hooks]
+postinstall = "pn install"
+
+[settings]
+experimental = true
+idiomatic_version_file_enable_tools = ["node"]

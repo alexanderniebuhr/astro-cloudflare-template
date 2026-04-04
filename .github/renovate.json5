@@ -1,0 +1,19 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": [
+		"config:best-practices",
+		":enableVulnerabilityAlerts",
+		":separateMultipleMajorReleases",
+		":rebaseStalePrs",
+		":timezone(Europe/Berlin)",
+		":disableRateLimiting",
+		":configMigration",
+		"replacements:all",
+		":gitSignOff",
+		":maintainLockFilesWeekly",
+		":semanticCommitsDisabled"
+	],
+	"ignorePresets": ["security:minimumReleaseAgeNpm"],
+	"osvVulnerabilityAlerts": true,
+	"postUpdateOptions": ["pnpmDedupe"],
+}

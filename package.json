@@ -1,0 +1,40 @@
+{
+  "name": "CHANGEME_PROJECT_NAME",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "astro": "astro",
+    "biome": "biome",
+    "dev": "astro dev",
+    "types": "wrangler types --include-runtime --include-env",
+    "check": "wrangler types --include-runtime --include-env --check && astro check",
+    "build": "astro build",
+    "preview": "astro build && astro preview",
+    "preview:wrangler": "astro build && wrangler dev",
+    "deploy": "astro build && wrangler deploy"
+  },
+  "devDependencies": {
+    "@astrojs/compiler-rs": "*",
+    "@biomejs/biome": "*",
+    "@tailwindcss/vite": "*",
+    "@types/node": "*",
+    "@typescript/native-preview": "*",
+    "tailwindcss": "*",
+    "update-browserslist-db": "*",
+    "@astrojs/check": "*",
+    "@cloudflare/vite-plugin": "*",
+    "@astrojs/cloudflare": "*",
+    "@astrojs/sitemap": "*",
+    "astro": "*",
+    "browserslist": "*",
+    "lightningcss": "*",
+    "wrangler": "*"
+  },
+  "dependencies": {},
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "25.8.1"
+    }
+  }
+}

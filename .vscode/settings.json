@@ -1,0 +1,23 @@
+{
+	"js/ts.tsdk.path": "node_modules/typescript/lib",
+	"js/ts.experimental.useTsgo": true,
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[astro]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"astro.content-intellisense": true
+}
