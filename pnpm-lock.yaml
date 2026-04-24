@@ -9,49 +9,49 @@ importers:
   .:
     devDependencies:
       '@astrojs/check':
-        specifier: '*'
+        specifier: 0.9.8
         version: 0.9.8(prettier@3.8.1)(typescript@5.9.3)
       '@astrojs/cloudflare':
         specifier: '*'
         version: 13.1.7(@types/node@25.5.2)(astro@6.1.3(@types/node@25.5.2)(jiti@2.6.1)(lightningcss@1.32.0)(rollup@4.60.1)(typescript@5.9.3)(yaml@2.8.3))(jiti@2.6.1)(lightningcss@1.32.0)(workerd@1.20260401.1)(wrangler@4.80.0)(yaml@2.8.3)
       '@astrojs/compiler-rs':
-        specifier: '*'
+        specifier: 0.1.6
         version: 0.1.6(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)
       '@astrojs/sitemap':
-        specifier: '*'
+        specifier: 3.7.2
         version: 3.7.2
       '@biomejs/biome':
-        specifier: '*'
+        specifier: 2.4.10
         version: 2.4.10
       '@cloudflare/vite-plugin':
-        specifier: '*'
+        specifier: 1.31.0
         version: 1.31.0(vite@7.3.1(@types/node@25.5.2)(jiti@2.6.1)(lightningcss@1.32.0)(yaml@2.8.3))(workerd@1.20260401.1)(wrangler@4.80.0)
       '@tailwindcss/vite':
-        specifier: '*'
+        specifier: 4.2.2
         version: 4.2.2(vite@7.3.1(@types/node@25.5.2)(jiti@2.6.1)(lightningcss@1.32.0)(yaml@2.8.3))
       '@types/node':
-        specifier: '*'
+        specifier: 25.5.2
         version: 25.5.2
       '@typescript/native-preview':
-        specifier: '*'
+        specifier: 7.0.0-dev.20260404.1
         version: 7.0.0-dev.20260404.1
       astro:
         specifier: '*'
         version: 6.1.3(@types/node@25.5.2)(jiti@2.6.1)(lightningcss@1.32.0)(rollup@4.60.1)(typescript@5.9.3)(yaml@2.8.3)
       browserslist:
-        specifier: '*'
+        specifier: 4.28.2
         version: 4.28.2
       lightningcss:
-        specifier: '*'
+        specifier: 1.32.0
         version: 1.32.0
       tailwindcss:
-        specifier: '*'
+        specifier: 4.2.2
         version: 4.2.2
       update-browserslist-db:
-        specifier: '*'
+        specifier: 1.2.3
         version: 1.2.3(browserslist@4.28.2)
       wrangler:
-        specifier: '*'
+        specifier: 4.80.0
         version: 4.80.0
 
 packages:
